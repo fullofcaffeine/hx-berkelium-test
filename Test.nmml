@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="BerkeliumTest" package="com.fullofcaffeine.berkeliumnmetest" version="1.0.0" company="NA" />
+	<app file="BerkeliumNMETest" main="com.fullofcaffeine.berkeliumnmetest.BerkeliumNMETest" path="Export" />
+	<window width="400" height="400" fps="30" />
+	
+	<classpath name="." />
+  <include path="../hx-berkelium/include.nmml" />
+	<haxelib name="nme" />
+  <assets path="template" rename="" include="*" type="template" />
+  
+</project>
