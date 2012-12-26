@@ -5,8 +5,8 @@
 	<window width="400" height="400" fps="30" />
 	
 	<classpath name="." />
-  <include path="../hx-berkelium/include.nmml" />
+	<haxelib name="hxberkelium" />
+	<ndll name="hxberkelium" haxelib="hxberkelium" />
 	<haxelib name="nme" />
-  <assets path="template" rename="" include="*" type="template" />
   
 </project>
